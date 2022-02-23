@@ -1,0 +1,23 @@
+
+섹션 1: Beginner Solutions in Go - The Basics, Clients, and Servers
+
+- Using the common I/O interfaces and the bytes and strings packages
+- Working with directories, files, CSV format, and temporary files
+- Working with text/template and html/templates
+
+--------------------
+
+sec1 ch2 Using the Common I/O Interfaces
+
+- Common Go interfaces to deal with I/O and it's uses
+
+
+--------------------
+
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
