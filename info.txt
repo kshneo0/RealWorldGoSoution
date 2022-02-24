@@ -125,14 +125,23 @@ echo "some string" | go run sec2/pipes/pipes.go
 echo "test case test" | go run sec2/pipes/pipes.go
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 sec2 ch13 Catching and Handling Signals
+
+- Exploring the handling of signals - Use of a signal handling the Go routine
+
+go run sec2/signals/signals.go
+ps -ef | grep signals
+kill -SIGTERM 9803
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 sec2 ch14 An ANSI Coloring Application
 sec2 ch15 Converting Data Types and Interface Casting
 sec2 ch16 Working with Numeric Data Types using math and math/big
