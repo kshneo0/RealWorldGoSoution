@@ -42,86 +42,120 @@ sec1 ch6 Working with Temporary Files
 - Working with files without the overhead of dealing with name collision
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
 
 sec1 ch7 Working with Text/Template and HTML/Templates
-sec1 ch8 Using Command-Line Flags
-sec1 ch9 Using Command-Line Arguments
-sec1 ch10 Reading and Setting Environment Variables
-sec1 ch11 Configuration Using TOML, YAML, and JSON
-sec1 ch12 Working with Unix Pipes
-sec1 ch13 Catching and Handling Signals
-sec1 ch14 An ANSI Coloring Application
-sec1 ch15 Converting Data Types and Interface Casting
-sec1 ch16 Working with Numeric Data Types using math and math/big
-sec1 ch17 Currency Conversions and float64 considerations
-sec1 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
-sec1 ch19 Encoding and Decoding Go Data
-sec1 ch20 Struct Tags and Basic Reflection in Go
-sec1 ch21 Implementing Collections Via Closures
-sec1 ch22 Handling Errors and the Error Interface
-sec1 ch23 Using the pkg/errors Package and Wrapping Errors
-sec1 ch24 Using the log Package and Understanding When to Log Errors
-sec1 ch25 Structured Logging with the apex and logrus Packages
-sec1 ch26 Logging with the context Package
-sec1 ch27 Using Package-Level Global Variables
+
+- Go standard templates for both plain text and HTML
+
+--------------------
+
+Summary
+
+- Common Go I/O interfaces
+- Worked with file systems:
+  - Temporary files
+  - Templates
+  - CSV files
+
+--------------------
+
+section 2 Command-Line Tools
+
+- Command-line flags and Arguments
+- Reading and setting environment Variables
+- Configration using TOML, YAML, and JSON
+- Unix pipe and Signals
+- ANSI coloring Application
+
+--------------------
+
+sec2 ch8 Using Command-Line Flags
+
+- flag package - Simple to add command-line flag arguments
+
+go run sec2/flages/*.go -h
+go run sec2/flages/*.go -s Go -isawesome -howawesome 10 -c 1,2,3
+
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
+
+sec2 ch9 Using Command-Line Arguments
+sec2 ch10 Reading and Setting Environment Variables
+sec2 ch11 Configuration Using TOML, YAML, and JSON
+sec2 ch12 Working with Unix Pipes
+sec2 ch13 Catching and Handling Signals
+sec2 ch14 An ANSI Coloring Application
+sec2 ch15 Converting Data Types and Interface Casting
+sec2 ch16 Working with Numeric Data Types using math and math/big
+sec2 ch17 Currency Conversions and float64 considerations
+sec2 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
+sec2 ch19 Encoding and Decoding Go Data
+sec2 ch20 Struct Tags and Basic Reflection in Go
+sec2 ch21 Implementing Collections Via Closures
+sec2 ch22 Handling Errors and the Error Interface
+sec2 ch23 Using the pkg/errors Package and Wrapping Errors
+sec2 ch24 Using the log Package and Understanding When to Log Errors
+sec2 ch25 Structured Logging with the apex and logrus Packages
+sec2 ch26 Logging with the context Package
+sec2 ch27 Using Package-Level Global Variables
 sec1 ch28 Catching Panics for Long Running Processes
 sec1 ch29 The database/sql Package with MySQL
 sec1 ch30 Executing a Database Transaction Interface
