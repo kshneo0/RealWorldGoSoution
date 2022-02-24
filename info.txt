@@ -11,9 +11,17 @@ sec1 ch2 Using the Common I/O Interfaces
 
 - Common Go interfaces to deal with I/O and it's uses
 
-
 --------------------
 
+sec1 ch3 Using the Bytes and Strings Packages
+
+- Working with data in memory and in the form of streams
+
+- Number of useful helpers:
+  - Convert between strings and byte types
+
+- Creation of buffers:
+  - Work with a number of common I/O interfaces
 
 --------------------
 --------------------
@@ -21,3 +29,111 @@ sec1 ch2 Using the Common I/O Interfaces
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+sec1 ch4 Working with Directories and Files
+sec1 ch5 Working with the CSV format
+sec1 ch6 Working with Temporary Files
+sec1 ch7 Working with Text/Template and HTML/Templates
+sec1 ch8 Using Command-Line Flags
+sec1 ch9 Using Command-Line Arguments
+sec1 ch10 Reading and Setting Environment Variables
+sec1 ch11 Configuration Using TOML, YAML, and JSON
+sec1 ch12 Working with Unix Pipes
+sec1 ch13 Catching and Handling Signals
+sec1 ch14 An ANSI Coloring Application
+sec1 ch15 Converting Data Types and Interface Casting
+sec1 ch16 Working with Numeric Data Types using math and math/big
+sec1 ch17 Currency Conversions and float64 considerations
+sec1 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
+sec1 ch19 Encoding and Decoding Go Data
+sec1 ch20 Struct Tags and Basic Reflection in Go
+sec1 ch21 Implementing Collections Via Closures
+sec1 ch22 Handling Errors and the Error Interface
+sec1 ch23 Using the pkg/errors Package and Wrapping Errors
+sec1 ch24 Using the log Package and Understanding When to Log Errors
+sec1 ch25 Structured Logging with the apex and logrus Packages
+sec1 ch26 Logging with the context Package
+sec1 ch27 Using Package-Level Global Variables
+sec1 ch28 Catching Panics for Long Running Processes
+sec1 ch29 The database/sql Package with MySQL
+sec1 ch30 Executing a Database Transaction Interface
+sec1 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
+sec1 ch32 Working with Redis
+sec1 ch33 Using NoSQL with MongoDB and mgo
+sec1 ch34 Creating Storage Interfaces for Data Portability
+sec1 ch35 Initializing, Storing, and Passing httpClient structs
+sec1 ch36 Writing a Client for a REST API
+sec1 ch37 Executing Parallel and Async Client Requests
+sec1 ch38 Making Use of OAuth2 Clients
+sec1 ch39 Implementing an OAuth2 Token Storage Interface
+sec1 ch40 Wrapping a Client in Added Functionality and Function Composition
+sec1 ch41 Understanding GRPC Clients
+sec1 ch42 Working with Web Handlers, Requests, and ResponseWriters
+sec1 ch43 Using Structs and Closures for Stateful Handlers
+sec1 ch44 Validating Input for Go structs and User Inputs
+sec1 ch45 Rendering and Content Negotiation
+sec1 ch46 Implementing and Using Middleware
+sec1 ch47 Building a Reverse Proxy Application
+sec1 ch48 Exporting GRPC as a JSON API
+sec 2: Advanced Solutions in Go - Testing and Distributed Systems
+sec2 ch49 The Course Overview
+sec2 ch50 Mocking Using the Standard Library
+sec2 ch51 Using the mockgen Package
+sec2 ch52 Using Table-Driven Tests to Improve Coverage
+sec2 ch53 Using Third-Party Testing Tools
+sec2 ch54 Practical Fuzzing
+sec2 ch55 Behavior Testing Using Go
+sec2 ch56 Using channels and the select Statement
+sec2 ch57 Performing async Operations withsyncWaitGroup
+sec2 ch58 Using Atomic Operations and mutex
+sec2 ch59 Using the context Package
+sec2 ch60 Executing State Management for Channels
+sec2 ch61 Using the Worker Pool Design Pattern
+sec2 ch62 Using Workers to Create Pipelines
+sec2 ch63 Using Service Discovery with Consul
+sec2 ch64 Implementing Basic Consensus Using Raft
+sec2 ch65 Using Containerization with Docker
+sec2 ch66 Orchestration and Deployment Strategies
+sec2 ch67 Monitoring Applications
+sec2 ch68 Collecting Metrics
+sec2 ch69 goflow for Dataflow Programming
+sec2 ch70 Reactive Programming with RxGo
+sec2 ch71 Using Kafka with Sarama
+sec2 ch72 Using async Producers with Kafka
+sec2 ch73 Connecting Kafka to goflow
+sec2 ch74 Defining a GraphQL Server in Go
+sec2 ch75 Go Programming on Lambda with Apex
+sec2 ch76 Apex Serverless Logging and Metrics
+sec2 ch77 Google App Engine with Go
+sec2 ch78 Working with Firebase Using zabawaba99/firego
+sec2 ch79 Using the pprof Tool
+sec2 ch80 Benchmarking and Finding Bottlenecks
+sec2 ch81 Memory Allocation and Heap Management
+sec2 ch82 Vendoring and Project Layout
+sec2 ch83 Using fasthttprouter and fasthttp
