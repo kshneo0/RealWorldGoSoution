@@ -100,11 +100,25 @@ go get github.com/kelseyhightower/envconfig
 go get github.com/pkg/errors
 
 --------------------
+
+sec2 ch11 Configuration Using TOML, YAML, and JSON
+
+- Configuration formats that Go has support for:
+  - TOML
+  - YAML
+  - JSON
+
+-Basic input and output using these formats
+
+go get github.com/BurntSushi/toml@latest
+go get gopkg.in/yaml.v2
+
+
+--------------------
 --------------------
 --------------------
 
-sec2 ch10 Reading and Setting Environment Variables
-sec2 ch11 Configuration Using TOML, YAML, and JSON
+
 sec2 ch12 Working with Unix Pipes
 sec2 ch13 Catching and Handling Signals
 sec2 ch14 An ANSI Coloring Application
