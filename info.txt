@@ -151,18 +151,37 @@ Summary
   - TOML
   - YAML
   - JSON
-  
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
+
 --------------------
 
+section 3 Data Conversion and Composition
 
+- Converting data types and interface casting
+- Working with numeric data types using math and math/big
+- Currency conversions and float64 considerations
+- Using pointers and SQL NullTypes for encoding and Decoding
+- Encoding and decoding Go data
+- Struct tags and basic reflection in Go
+- Implementing collections via closures
+
+--------------------
 
 sec3 ch15 Converting Data Types and Interface Casting
+
+- Convenience functions:
+  - Converting between numbers with casting
+  - Converting between strings and other types
+  - Converting between interfaces and types using reflection
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec3 ch16 Working with Numeric Data Types using math and math/big
 sec3 ch17 Currency Conversions and float64 considerations
 sec3 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
