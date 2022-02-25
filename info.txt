@@ -135,39 +135,58 @@ ps -ef | grep signals
 kill -SIGTERM 9803
 
 --------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 sec2 ch14 An ANSI Coloring Application
-sec2 ch15 Converting Data Types and Interface Casting
-sec2 ch16 Working with Numeric Data Types using math and math/big
-sec2 ch17 Currency Conversions and float64 considerations
-sec2 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
-sec2 ch19 Encoding and Decoding Go Data
-sec2 ch20 Struct Tags and Basic Reflection in Go
-sec2 ch21 Implementing Collections Via Closures
-sec2 ch22 Handling Errors and the Error Interface
-sec2 ch23 Using the pkg/errors Package and Wrapping Errors
-sec2 ch24 Using the log Package and Understanding When to Log Errors
-sec2 ch25 Structured Logging with the apex and logrus Packages
-sec2 ch26 Logging with the context Package
-sec2 ch27 Using Package-Level Global Variables
-sec1 ch28 Catching Panics for Long Running Processes
-sec1 ch29 The database/sql Package with MySQL
-sec1 ch30 Executing a Database Transaction Interface
-sec1 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
-sec1 ch32 Working with Redis
-sec1 ch33 Using NoSQL with MongoDB and mgo
-sec1 ch34 Creating Storage Interfaces for Data Portability
-sec1 ch35 Initializing, Storing, and Passing httpClient structs
-sec1 ch36 Writing a Client for a REST API
-sec1 ch37 Executing Parallel and Async Client Requests
-sec1 ch38 Making Use of OAuth2 Clients
-sec1 ch39 Implementing an OAuth2 Token Storage Interface
+
+- Basic coloring mechanism to color text red or plain
+
+go get github.com/agtorre/gocolorize
+
+--------------------
+
+Summary
+
+- Took in user input via coommand line
+- Processing common data-types:
+  - TOML
+  - YAML
+  - JSON
+  
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+sec3 ch15 Converting Data Types and Interface Casting
+sec3 ch16 Working with Numeric Data Types using math and math/big
+sec3 ch17 Currency Conversions and float64 considerations
+sec3 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
+sec3 ch19 Encoding and Decoding Go Data
+sec3 ch20 Struct Tags and Basic Reflection in Go
+sec3 ch21 Implementing Collections Via Closures
+sec3 ch22 Handling Errors and the Error Interface
+sec3 ch23 Using the pkg/errors Package and Wrapping Errors
+sec3 ch24 Using the log Package and Understanding When to Log Errors
+sec3 ch25 Structured Logging with the apex and logrus Packages
+sec3 ch26 Logging with the context Package
+sec3 ch27 Using Package-Level Global Variables
+sec3 ch28 Catching Panics for Long Running Processes
+sec3 ch29 The database/sql Package with MySQL
+sec3 ch30 Executing a Database Transaction Interface
+sec3 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
+sec3 ch32 Working with Redis
+sec3 ch33 Using NoSQL with MongoDB and mgo
+sec3 ch34 Creating Storage Interfaces for Data Portability
+sec3 ch35 Initializing, Storing, and Passing httpClient structs
+sec3 ch36 Writing a Client for a REST API
+sec3 ch37 Executing Parallel and Async Client Requests
+sec3 ch38 Making Use of OAuth2 Clients
+sec3 ch39 Implementing an OAuth2 Token Storage Interface
 sec1 ch40 Wrapping a Client in Added Functionality and Function Composition
 sec1 ch41 Understanding GRPC Clients
 sec1 ch42 Working with Web Handlers, Requests, and ResponseWriters
