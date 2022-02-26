@@ -201,6 +201,14 @@ Currency
 - Treat it as a string and convert to pennies
 
 --------------------
+
+sec3 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
+
+- When encoding/decoding into an object:
+  - Strings default to empty string
+  - Integers will default to 0
+  - Struct tags such as JSON omit empty, 0 values
+  
 --------------------
 --------------------
 --------------------
@@ -213,7 +221,6 @@ Currency
 --------------------
 --------------------
 
-sec3 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
 sec3 ch19 Encoding and Decoding Go Data
 sec3 ch20 Struct Tags and Basic Reflection in Go
 sec3 ch21 Implementing Collections Via Closures
