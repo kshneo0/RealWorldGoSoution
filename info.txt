@@ -216,18 +216,24 @@ sec3 ch19 Encoding and Decoding Go Data
 - Encoding and decoding gob format and base64
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 sec3 ch20 Struct Tags and Basic Reflection in Go
+
+- The reflect package - interrogating and understanding interface objects
+- Helper methods to look at structs, values, struct tags, and so on
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 sec3 ch21 Implementing Collections Via Closures
 sec3 ch22 Handling Errors and the Error Interface
 sec3 ch23 Using the pkg/errors Package and Wrapping Errors
