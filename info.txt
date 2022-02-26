@@ -210,6 +210,11 @@ sec3 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
   - Struct tags such as JSON omit empty, 0 values
   
 --------------------
+
+sec3 ch19 Encoding and Decoding Go Data
+
+- Encoding and decoding gob format and base64
+
 --------------------
 --------------------
 --------------------
@@ -221,7 +226,7 @@ sec3 ch18 Using Pointers and SQL NullTypes for Encoding and Decoding
 --------------------
 --------------------
 
-sec3 ch19 Encoding and Decoding Go Data
+
 sec3 ch20 Struct Tags and Basic Reflection in Go
 sec3 ch21 Implementing Collections Via Closures
 sec3 ch22 Handling Errors and the Error Interface
