@@ -305,14 +305,24 @@ sec4 ch26 Logging with the context Package
 go get github.com/apex/log
 
 --------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 sec4 ch27 Using Package-Level Global Variables
+
+- Using sync.Once
+- Passing by the Set method
+
+go get github.com/sirupsen/logrus
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 sec4 ch28 Catching Panics for Long Running Processes
 sec4 ch29 The database/sql Package with MySQL
 sec4 ch30 Executing a Database Transaction Interface
