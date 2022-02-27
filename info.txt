@@ -383,7 +383,18 @@ sec5 ch33 Using NoSQL with MongoDB and mgo
 go get gopkg.in/mgo.v2
 
 --------------------
+
+sec5 ch34 Creating Storage Interfaces for Data Portability
+
+- Implementing a very simple interface to work with items in MongoDB
+
 --------------------
+
+Summary
+
+- Storage libraries - Accessing MySQL
+- Interfaces to decouple library from application logic
+
 --------------------
 --------------------
 --------------------
