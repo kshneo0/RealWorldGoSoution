@@ -373,41 +373,27 @@ sec5 ch32 Working with Redis
 
 go get gopkg.in/redis.v5
 
-brew install redis
-redis-server --version
-brew info redis
-
-# Redis Server를 실행
-redis-server
-
-# Redis를 백그라운드에서 실행
-brew services start redis
-
-# Redis 를 재실행
-brew services restart redis
-
-# 실행중인 Redis를 중지
-brew services stop redis
-
-# 설치한 Redis를 삭제
-brew uninstall redis
-
-redis가 실행되어있는지 확인
-redis-cli ping
-
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 --------------------
 
 sec5 ch33 Using NoSQL with MongoDB and mgo
+
+- Creating a connection in a similar way to Redis and MySQL
+- Storing and retriving an object without defining a concrete schema
+
+go get gopkg.in/mgo.v2
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 sec5 ch34 Creating Storage Interfaces for Data Portability
 sec5 ch35 Initializing, Storing, and Passing httpClient structs
 sec5 ch36 Writing a Client for a REST API
