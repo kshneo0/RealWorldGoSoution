@@ -223,18 +223,32 @@ sec3 ch20 Struct Tags and Basic Reflection in Go
 - Helper methods to look at structs, values, struct tags, and so on
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 sec3 ch21 Implementing Collections Via Closures
+
+- Functional constructs - map and filter make code appear more readable
+- Basic examples of implementing collections using Go closures
+
+--------------------
+
+Summary
+
+- Methods for casting and converting:
+  - Go interfaces and data types
+
+- Encoding strategies and some functional design patterns for Go
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec3 ch22 Handling Errors and the Error Interface
 sec3 ch23 Using the pkg/errors Package and Wrapping Errors
 sec3 ch24 Using the log Package and Understanding When to Log Errors
