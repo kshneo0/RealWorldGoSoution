@@ -259,18 +259,25 @@ sec4 ch22 Handling Errors and the Error Interface
 - Custom error using a struct
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 sec4 ch23 Using the pkg/errors Package and Wrapping Errors
+
+- How to use the pkg/errors package to add annotation to errors
+
+go get github.com/pkg/errors
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec4 ch24 Using the log Package and Understanding When to Log Errors
 sec4 ch25 Structured Logging with the apex and logrus Packages
 sec4 ch26 Logging with the context Package
