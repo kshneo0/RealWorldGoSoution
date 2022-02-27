@@ -239,6 +239,28 @@ Summary
 - Encoding strategies and some functional design patterns for Go
 
 --------------------
+
+section4 Error Handling in Go
+
+- Handling errors and the error interface
+- Using the pkg/errors package and wrapping errors
+- Using the log package and understanding when to log errors
+- Structured logging with the apex and logrus pacakges
+- Logging with the context package
+- Using package-level glob variables
+- Catching panics for long running processes
+
+--------------------
+
+sec4 ch22 Handling Errors and the Error Interface
+
+- Creation of basic errors
+- Errors that have assigned values or types
+- Custom error using a struct
+
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------
@@ -248,34 +270,32 @@ Summary
 
 
 
-
-sec3 ch22 Handling Errors and the Error Interface
-sec3 ch23 Using the pkg/errors Package and Wrapping Errors
-sec3 ch24 Using the log Package and Understanding When to Log Errors
-sec3 ch25 Structured Logging with the apex and logrus Packages
-sec3 ch26 Logging with the context Package
-sec3 ch27 Using Package-Level Global Variables
-sec3 ch28 Catching Panics for Long Running Processes
-sec3 ch29 The database/sql Package with MySQL
-sec3 ch30 Executing a Database Transaction Interface
-sec3 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
-sec3 ch32 Working with Redis
-sec3 ch33 Using NoSQL with MongoDB and mgo
-sec3 ch34 Creating Storage Interfaces for Data Portability
-sec3 ch35 Initializing, Storing, and Passing httpClient structs
-sec3 ch36 Writing a Client for a REST API
-sec3 ch37 Executing Parallel and Async Client Requests
-sec3 ch38 Making Use of OAuth2 Clients
-sec3 ch39 Implementing an OAuth2 Token Storage Interface
-sec1 ch40 Wrapping a Client in Added Functionality and Function Composition
-sec1 ch41 Understanding GRPC Clients
-sec1 ch42 Working with Web Handlers, Requests, and ResponseWriters
-sec1 ch43 Using Structs and Closures for Stateful Handlers
-sec1 ch44 Validating Input for Go structs and User Inputs
-sec1 ch45 Rendering and Content Negotiation
-sec1 ch46 Implementing and Using Middleware
-sec1 ch47 Building a Reverse Proxy Application
-sec1 ch48 Exporting GRPC as a JSON API
+sec4 ch23 Using the pkg/errors Package and Wrapping Errors
+sec4 ch24 Using the log Package and Understanding When to Log Errors
+sec4 ch25 Structured Logging with the apex and logrus Packages
+sec4 ch26 Logging with the context Package
+sec4 ch27 Using Package-Level Global Variables
+sec4 ch28 Catching Panics for Long Running Processes
+sec4 ch29 The database/sql Package with MySQL
+sec4 ch30 Executing a Database Transaction Interface
+sec4 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
+sec4 ch32 Working with Redis
+sec4 ch33 Using NoSQL with MongoDB and mgo
+sec4 ch34 Creating Storage Interfaces for Data Portability
+sec4 ch35 Initializing, Storing, and Passing httpClient structs
+sec4 ch36 Writing a Client for a REST API
+sec4 ch37 Executing Parallel and Async Client Requests
+sec4 ch38 Making Use of OAuth2 Clients
+sec4 ch39 Implementing an OAuth2 Token Storage Interface
+sec4 ch40 Wrapping a Client in Added Functionality and Function Composition
+sec4 ch41 Understanding GRPC Clients
+sec4 ch42 Working with Web Handlers, Requests, and ResponseWriters
+sec4 ch43 Using Structs and Closures for Stateful Handlers
+sec4 ch44 Validating Input for Go structs and User Inputs
+sec4 ch45 Rendering and Content Negotiation
+sec4 ch46 Implementing and Using Middleware
+sec4 ch47 Building a Reverse Proxy Application
+sec4 ch48 Exporting GRPC as a JSON API
 sec 2: Advanced Solutions in Go - Testing and Distributed Systems
 sec2 ch49 The Course Overview
 sec2 ch50 Mocking Using the Standard Library
