@@ -359,18 +359,23 @@ sec5 ch30 Executing a Database Transaction Interface
 - Interface to wrap database connections and transaction objects
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 sec5 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
+
+- Tweakingthe default to better accommodate database configuration
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
 sec5 ch32 Working with Redis
 sec5 ch33 Using NoSQL with MongoDB and mgo
 sec5 ch34 Creating Storage Interfaces for Data Portability
