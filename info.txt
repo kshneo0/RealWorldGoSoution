@@ -280,18 +280,27 @@ logging
   - To sprinkle debug or info statements at key parts of code
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
 
 sec4 ch25 Structured Logging with the apex and logrus Packages
+
+- Structured logging - Flexibility in logging variables
+
+Structured Logging
+- Examine the state of the system
+- Variety of third-party packages for combing over logs:
+  - sirupsen/logrus
+  - apex/log
+
+go get github.com/sirupsen/logrus
+go get github.com/apex/log
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 sec4 ch26 Logging with the context Package
 sec4 ch27 Using Package-Level Global Variables
 sec4 ch28 Catching Panics for Long Running Processes
