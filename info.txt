@@ -267,18 +267,30 @@ sec4 ch23 Using the pkg/errors Package and Wrapping Errors
 go get github.com/pkg/errors
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 sec4 ch24 Using the log Package and Understanding When to Log Errors
+
+- Using default Go log package
+- When a log shoild probably occur
+
+
+logging
+- Logging should occur when an error is the final result
+- If you use a log that provides log levels:
+  - To sprinkle debug or info statements at key parts of code
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
 sec4 ch25 Structured Logging with the apex and logrus Packages
 sec4 ch26 Logging with the context Package
 sec4 ch27 Using Package-Level Global Variables
