@@ -293,15 +293,25 @@ Structured Logging
 
 go get github.com/sirupsen/logrus
 go get github.com/apex/log
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 
+--------------------
 
 sec4 ch26 Logging with the context Package
+
+- A way to pass log fields between various functions
+- pkg/context package - Pass additional variables and cancelation
+- Distributing variables between functions for logging purposes
+
+go get github.com/apex/log
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 sec4 ch27 Using Package-Level Global Variables
 sec4 ch28 Catching Panics for Long Running Processes
 sec4 ch29 The database/sql Package with MySQL
