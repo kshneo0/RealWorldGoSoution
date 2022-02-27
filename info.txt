@@ -314,36 +314,75 @@ sec4 ch27 Using Package-Level Global Variables
 go get github.com/sirupsen/logrus
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 sec4 ch28 Catching Panics for Long Running Processes
-sec4 ch29 The database/sql Package with MySQL
-sec4 ch30 Executing a Database Transaction Interface
-sec4 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
-sec4 ch32 Working with Redis
-sec4 ch33 Using NoSQL with MongoDB and mgo
-sec4 ch34 Creating Storage Interfaces for Data Portability
-sec4 ch35 Initializing, Storing, and Passing httpClient structs
-sec4 ch36 Writing a Client for a REST API
-sec4 ch37 Executing Parallel and Async Client Requests
-sec4 ch38 Making Use of OAuth2 Clients
-sec4 ch39 Implementing an OAuth2 Token Storage Interface
-sec4 ch40 Wrapping a Client in Added Functionality and Function Composition
-sec4 ch41 Understanding GRPC Clients
-sec4 ch42 Working with Web Handlers, Requests, and ResponseWriters
-sec4 ch43 Using Structs and Closures for Stateful Handlers
-sec4 ch44 Validating Input for Go structs and User Inputs
-sec4 ch45 Rendering and Content Negotiation
-sec4 ch46 Implementing and Using Middleware
-sec4 ch47 Building a Reverse Proxy Application
-sec4 ch48 Exporting GRPC as a JSON API
+
+- Implementing long running processes - Code paths will result panic
+- Catching and handling panics
+
+--------------------
+
+Summary
+
+- Strategies to handle errors in Go
+- Passed errors and handling them
+- logging
+- Encoding strategies
+- Some functional design patterns for Go
+
+--------------------
+
+section 5 All about Databases and Storage
+
+- The database/sql package with MySQL
+- Executing a database transaction interface
+- Connection pooling, rate limiting, and timeouts for SQL
+- Working with Redis
+- Using NoSQL with MongoDB and mgo
+- Creating storage interfaces for fata portability
+
+--------------------
+
+sec5 ch29 The database/sql Package with MySQL
+
+- Database/SQL package:
+  - Provides hooks for reational databases
+  - Handles connection pooling, connection duration
+  - Gives access to basic database operations
+
+go get github.com/go-sql-driver/mysql
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+sec5 ch30 Executing a Database Transaction Interface
+sec5 ch31 Connection Pooling, Rate Limiting, and Timeouts for SQL
+sec5 ch32 Working with Redis
+sec5 ch33 Using NoSQL with MongoDB and mgo
+sec5 ch34 Creating Storage Interfaces for Data Portability
+sec5 ch35 Initializing, Storing, and Passing httpClient structs
+sec5 ch36 Writing a Client for a REST API
+sec5 ch37 Executing Parallel and Async Client Requests
+sec5 ch38 Making Use of OAuth2 Clients
+sec5 ch39 Implementing an OAuth2 Token Storage Interface
+sec5 ch40 Wrapping a Client in Added Functionality and Function Composition
+sec5 ch41 Understanding GRPC Clients
+sec5 ch42 Working with Web Handlers, Requests, and ResponseWriters
+sec5 ch43 Using Structs and Closures for Stateful Handlers
+sec5 ch44 Validating Input for Go structs and User Inputs
+sec5 ch45 Rendering and Content Negotiation
+sec5 ch46 Implementing and Using Middleware
+sec5 ch47 Building a Reverse Proxy Application
+sec5 ch48 Exporting GRPC as a JSON API
 sec 2: Advanced Solutions in Go - Testing and Distributed Systems
 sec2 ch49 The Course Overview
 sec2 ch50 Mocking Using the Standard Library
