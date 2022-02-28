@@ -426,19 +426,24 @@ Client Authentication
   - GET request to https://www.google.con
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 sec6 ch37 Executing Parallel and Async Client Requests
+
+- Using a client to retrieve multiple URLs using Go buffered channels
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
 sec6 ch38 Making Use of OAuth2 Clients
 sec6 ch39 Implementing an OAuth2 Token Storage Interface
 sec6 ch40 Wrapping a Client in Added Functionality and Function Composition
