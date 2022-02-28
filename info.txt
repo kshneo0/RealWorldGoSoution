@@ -409,21 +409,35 @@ section 6 WebClients and APIs
 
 --------------------
 
-sec6 ch34 Creating Storage Interfaces for Data Portability
+sec6 ch35 Initializing, Storing, and Passing httpClient structs
 
 - Basics of working and creating an http.Client object
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 
-
-
-sec6 ch35 Initializing, Storing, and Passing httpClient structs
 sec6 ch36 Writing a Client for a REST API
+
+- Structuring a client - Some strategies to take advantage of
+
+Client Authentication
+- Authentication is handled by basic auth
+- Out API exposes one endpoint - GetGoogle()
+- Returns status code returned from:
+  - GET request to https://www.google.con
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec6 ch37 Executing Parallel and Async Client Requests
 sec6 ch38 Making Use of OAuth2 Clients
 sec6 ch39 Implementing an OAuth2 Token Storage Interface
