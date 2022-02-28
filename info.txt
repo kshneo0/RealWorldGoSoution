@@ -396,7 +396,23 @@ Summary
 - Interfaces to decouple library from application logic
 
 --------------------
+
+section 6 WebClients and APIs
+
+- Initializing, storing, and passing http.Client structs
+- Writing a client for a REST API
+- Executing parallel and async client requests
+- Making use of OAuth2 clients
+- Implementing an OAuth2 token storage interface
+- Wrapping a client in added functionality and function composition
+- Understanding GRPC clients
+
 --------------------
+
+sec6 ch34 Creating Storage Interfaces for Data Portability
+
+- Basics of working and creating an http.Client object
+
 --------------------
 --------------------
 --------------------
@@ -405,21 +421,21 @@ Summary
 --------------------
 
 
-sec5 ch34 Creating Storage Interfaces for Data Portability
-sec5 ch35 Initializing, Storing, and Passing httpClient structs
-sec5 ch36 Writing a Client for a REST API
-sec5 ch37 Executing Parallel and Async Client Requests
-sec5 ch38 Making Use of OAuth2 Clients
-sec5 ch39 Implementing an OAuth2 Token Storage Interface
-sec5 ch40 Wrapping a Client in Added Functionality and Function Composition
-sec5 ch41 Understanding GRPC Clients
-sec5 ch42 Working with Web Handlers, Requests, and ResponseWriters
-sec5 ch43 Using Structs and Closures for Stateful Handlers
-sec5 ch44 Validating Input for Go structs and User Inputs
-sec5 ch45 Rendering and Content Negotiation
-sec5 ch46 Implementing and Using Middleware
-sec5 ch47 Building a Reverse Proxy Application
-sec5 ch48 Exporting GRPC as a JSON API
+
+sec6 ch35 Initializing, Storing, and Passing httpClient structs
+sec6 ch36 Writing a Client for a REST API
+sec6 ch37 Executing Parallel and Async Client Requests
+sec6 ch38 Making Use of OAuth2 Clients
+sec6 ch39 Implementing an OAuth2 Token Storage Interface
+sec6 ch40 Wrapping a Client in Added Functionality and Function Composition
+sec6 ch41 Understanding GRPC Clients
+sec6 ch42 Working with Web Handlers, Requests, and ResponseWriters
+sec6 ch43 Using Structs and Closures for Stateful Handlers
+sec6 ch44 Validating Input for Go structs and User Inputs
+sec6 ch45 Rendering and Content Negotiation
+sec6 ch46 Implementing and Using Middleware
+sec6 ch47 Building a Reverse Proxy Application
+sec6 ch48 Exporting GRPC as a JSON API
 sec 2: Advanced Solutions in Go - Testing and Distributed Systems
 sec2 ch49 The Course Overview
 sec2 ch50 Mocking Using the Standard Library
