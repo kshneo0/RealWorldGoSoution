@@ -1,5 +1,5 @@
 
-섹션 1: Beginner Solutions in Go - The Basics, Clients, and Servers
+Part 1: Beginner Solutions in Go - The Basics, Clients, and Servers
 
 - Using the common I/O interfaces and the bytes and strings packages
 - Working with directories, files, CSV format, and temporary files
@@ -609,49 +609,75 @@ Summary
 - Validation of user input and middleware
 
 --------------------
+
+Part 2: Advanced Solutions in Go - Testing and Distributed Systems
+
+--------------------
+
+section 11 Testing
+
+- Mocking using the standard library
+- Using the mockgen package
+- Using table-driven tests to improve coverage
+- Using third-party testing tools
+- Practical fuzzing
+- Behavior testing using Go
+
+--------------------
+
+sec11 ch50 Mocking Using the Standard Library
+
+- How to mock interfaces as well as functions 
+
+About Mocking
+- Implementing interface with test version
+- Refer to mocking functions and methods
+
+https://go.dev/play/p/oLF1XnRX3C
+
 --------------------
 --------------------
 --------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 
 
 
-
-
-
-
-sec 2: Advanced Solutions in Go - Testing and Distributed Systems
-sec2 ch49 The Course Overview
-sec2 ch50 Mocking Using the Standard Library
-sec2 ch51 Using the mockgen Package
-sec2 ch52 Using Table-Driven Tests to Improve Coverage
-sec2 ch53 Using Third-Party Testing Tools
-sec2 ch54 Practical Fuzzing
-sec2 ch55 Behavior Testing Using Go
-sec2 ch56 Using channels and the select Statement
-sec2 ch57 Performing async Operations withsyncWaitGroup
-sec2 ch58 Using Atomic Operations and mutex
-sec2 ch59 Using the context Package
-sec2 ch60 Executing State Management for Channels
-sec2 ch61 Using the Worker Pool Design Pattern
-sec2 ch62 Using Workers to Create Pipelines
-sec2 ch63 Using Service Discovery with Consul
-sec2 ch64 Implementing Basic Consensus Using Raft
-sec2 ch65 Using Containerization with Docker
-sec2 ch66 Orchestration and Deployment Strategies
-sec2 ch67 Monitoring Applications
-sec2 ch68 Collecting Metrics
-sec2 ch69 goflow for Dataflow Programming
-sec2 ch70 Reactive Programming with RxGo
-sec2 ch71 Using Kafka with Sarama
-sec2 ch72 Using async Producers with Kafka
-sec2 ch73 Connecting Kafka to goflow
-sec2 ch74 Defining a GraphQL Server in Go
-sec2 ch75 Go Programming on Lambda with Apex
-sec2 ch76 Apex Serverless Logging and Metrics
-sec2 ch77 Google App Engine with Go
-sec2 ch78 Working with Firebase Using zabawaba99/firego
-sec2 ch79 Using the pprof Tool
-sec2 ch80 Benchmarking and Finding Bottlenecks
-sec2 ch81 Memory Allocation and Heap Management
-sec2 ch82 Vendoring and Project Layout
-sec2 ch83 Using fasthttprouter and fasthttp
+sec11 ch51 Using the mockgen Package
+sec11 ch52 Using Table-Driven Tests to Improve Coverage
+sec11 ch53 Using Third-Party Testing Tools
+sec11 ch54 Practical Fuzzing
+sec11 ch55 Behavior Testing Using Go
+sec11 ch56 Using channels and the select Statement
+sec11 ch57 Performing async Operations withsyncWaitGroup
+sec11 ch58 Using Atomic Operations and mutex
+sec11 ch59 Using the context Package
+sec11 ch60 Executing State Management for Channels
+sec11 ch61 Using the Worker Pool Design Pattern
+sec11 ch62 Using Workers to Create Pipelines
+sec11 ch63 Using Service Discovery with Consul
+sec11 ch64 Implementing Basic Consensus Using Raft
+sec11 ch65 Using Containerization with Docker
+sec11 ch66 Orchestration and Deployment Strategies
+sec11 ch67 Monitoring Applications
+sec11 ch68 Collecting Metrics
+sec11 ch69 goflow for Dataflow Programming
+sec11 ch70 Reactive Programming with RxGo
+sec11 ch71 Using Kafka with Sarama
+sec11 ch72 Using async Producers with Kafka
+sec11 ch73 Connecting Kafka to goflow
+sec11 ch74 Defining a GraphQL Server in Go
+sec11 ch75 Go Programming on Lambda with Apex
+sec11 ch76 Apex Serverless Logging and Metrics
+sec11 ch77 Google App Engine with Go
+sec11 ch78 Working with Firebase Using zabawaba99/firego
+sec11 ch79 Using the pprof Tool
+sec11 ch80 Benchmarking and Finding Bottlenecks
+sec11 ch81 Memory Allocation and Heap Management
+sec11 ch82 Vendoring and Project Layout
+sec11 ch83 Using fasthttprouter and fasthttp
