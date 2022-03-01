@@ -555,19 +555,27 @@ Verror
 
 --------------------
 
-
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 sec7 ch45 Rendering and Content Negotiation
+
+- Using unrolled/render and a custom function to negotitate content type
+
+go get github.com/unrolled/render
+
+curl "http://localhost:3333/" -H "Content-Type: text/xml"
+curl "http://localhost:3333/" -H "Content-Type: application/json"
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec7 ch46 Implementing and Using Middleware
 sec7 ch47 Building a Reverse Proxy Application
 sec7 ch48 Exporting GRPC as a JSON API
