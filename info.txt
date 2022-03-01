@@ -575,18 +575,26 @@ sec7 ch46 Implementing and Using Middleware
 curl "http://localhost:3333"
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
 
 sec7 ch47 Building a Reverse Proxy Application
+
+- Develpoing a reverse proxy application:
+  - Hitting http://localhost:3333 in a browser
+  - Responses will be forwarded to browser
+  - End result should be https://www.golang.org rendered in a browser
+  
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
 sec7 ch48 Exporting GRPC as a JSON API
 sec 2: Advanced Solutions in Go - Testing and Distributed Systems
 sec2 ch49 The Course Overview
