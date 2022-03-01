@@ -490,6 +490,37 @@ Summary
 - Patterns for common operations, such as async requests to APIs
 
 --------------------
+
+section7 Microservices for Applications in Go
+
+- Working with web handlers, requests, and ResponseWriters
+- Using structs and closures for stateful handlers
+- Validating input for Go structs and user inputs
+- Rendering and content negotiation
+- Implementing and using middleware
+- Building a reverse proxy application
+- Exporting GRPC as a JSON API
+
+--------------------
+
+sec7 ch42 Working with Web Handlers, Requests, and ResponseWriters
+
+- Creating a handler interface
+- Listening on a local port
+- Performing some operations on an http.ResponseWriter
+
+type HAndlerFunc func(http.ResponseWriter, *http.Request)
+type Handler interface {
+  ServeHTTP(http.ResponseWriter, *http.Request)
+}
+
+curl "http://localhost:3333/name?name=Reader" -X GET
+curl "http://localhost:3333/greeting" -X POST -d 'name=Reader&greeting=Goodbye'
+
+--------------------
+--------------------
+--------------------
+--------------------
 --------------------
 --------------------
 --------------------
@@ -498,15 +529,12 @@ Summary
 --------------------
 --------------------
 
-
-
-sec6 ch42 Working with Web Handlers, Requests, and ResponseWriters
-sec6 ch43 Using Structs and Closures for Stateful Handlers
-sec6 ch44 Validating Input for Go structs and User Inputs
-sec6 ch45 Rendering and Content Negotiation
-sec6 ch46 Implementing and Using Middleware
-sec6 ch47 Building a Reverse Proxy Application
-sec6 ch48 Exporting GRPC as a JSON API
+sec7 ch43 Using Structs and Closures for Stateful Handlers
+sec7 ch44 Validating Input for Go structs and User Inputs
+sec7 ch45 Rendering and Content Negotiation
+sec7 ch46 Implementing and Using Middleware
+sec7 ch47 Building a Reverse Proxy Application
+sec7 ch48 Exporting GRPC as a JSON API
 sec 2: Advanced Solutions in Go - Testing and Distributed Systems
 sec2 ch49 The Course Overview
 sec2 ch50 Mocking Using the Standard Library
