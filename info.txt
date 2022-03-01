@@ -518,6 +518,16 @@ curl "http://localhost:3333/name?name=Reader" -X GET
 curl "http://localhost:3333/greeting" -X POST -d 'name=Reader&greeting=Goodbye'
 
 --------------------
+
+sec7 ch43 Using Structs and Closures for Stateful Handlers
+
+- Using a struct controller to store a storage interface
+- Creating two routes with a single handler - Modified by an other function
+
+curl "http://localhost:3333/set" -X POST -d 'value=value'
+curl "http://localhost:3333/get" -X GET
+curl "http://localhost:3333/get/default" -X GET
+
 --------------------
 --------------------
 --------------------
@@ -529,7 +539,7 @@ curl "http://localhost:3333/greeting" -X POST -d 'name=Reader&greeting=Goodbye'
 --------------------
 --------------------
 
-sec7 ch43 Using Structs and Closures for Stateful Handlers
+
 sec7 ch44 Validating Input for Go structs and User Inputs
 sec7 ch45 Rendering and Content Negotiation
 sec7 ch46 Implementing and Using Middleware
