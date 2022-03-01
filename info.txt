@@ -432,19 +432,32 @@ sec6 ch37 Executing Parallel and Async Client Requests
 - Using a client to retrieve multiple URLs using Go buffered channels
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
 
 sec6 ch38 Making Use of OAuth2 Clients
+
+- The golang.org/x/oauth2 package - Flexible client for working with OAuth2
+- How to create a new GitHub OAuth2 client - Basic Usage
+
+OAuth2
+- The standard OAuth2 flow - Ends with the server redirecting to an endpoint
+- Server grabs the code and exchanges it for a token
+- We bypass that requirement by using:
+  - https://localhost
+  - https://a-domain-you-oen
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
 sec6 ch39 Implementing an OAuth2 Token Storage Interface
 sec6 ch40 Wrapping a Client in Added Functionality and Function Composition
 sec6 ch41 Understanding GRPC Clients
