@@ -582,20 +582,43 @@ sec7 ch47 Building a Reverse Proxy Application
   - Hitting http://localhost:3333 in a browser
   - Responses will be forwarded to browser
   - End result should be https://www.golang.org rendered in a browser
-  
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 
-
-
-
-
+--------------------
 
 sec7 ch48 Exporting GRPC as a JSON API
+
+- Putting common RPC functions in a package
+- Wrapping them in:
+  - GRPC server
+  - Standard web handler
+
+protoc --go_out=plugins=grpc:keyvalue/ keyvalue/keyvalue.proto
+
+curl "http://localhost:3333/set" -d '{"key":"test","value":"123"}' -v
+curl "http://localhost:3333/get?key=badtest"  -v 'name=Reader&greeting=Goodbye'
+curl "http://localhost:3333/get?key=test"  -v 'name=Reader&greeting=Goodbye'
+
+github.com/goadesign/goa
+
+--------------------
+
+Summary
+
+- Web handlers
+- Passing in a state to a handler
+- Validation of user input and middleware
+
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
+
 sec 2: Advanced Solutions in Go - Testing and Distributed Systems
 sec2 ch49 The Course Overview
 sec2 ch50 Mocking Using the Standard Library
