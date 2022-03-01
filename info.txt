@@ -565,18 +565,27 @@ curl "http://localhost:3333/" -H "Content-Type: text/xml"
 curl "http://localhost:3333/" -H "Content-Type: application/json"
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 sec7 ch46 Implementing and Using Middleware
+
+- Creating middleware from scratch
+- Implementing ApplyMiddleware function to chain a bunch of middleware
+- Setting values in the request context object
+
+curl "http://localhost:3333"
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
 sec7 ch47 Building a Reverse Proxy Application
 sec7 ch48 Exporting GRPC as a JSON API
 sec 2: Advanced Solutions in Go - Testing and Distributed Systems
