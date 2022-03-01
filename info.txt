@@ -454,19 +454,30 @@ sec6 ch39 Implementing an OAuth2 Token Storage Interface
   - Retrieve them at will using a key
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
-
-
 
 sec6 ch40 Wrapping a Client in Added Functionality and Function Composition
+
+- Implementing a logging and basic auth middleware for http.Client struct
+
+Decorate(RoundTripper, Middleware1, Middleware2, etc)
+vs
+var t RoundTrupper
+t = Middleware1(t)
+t = Middleware2(t)
+etc
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 sec6 ch41 Understanding GRPC Clients
 sec6 ch42 Working with Web Handlers, Requests, and ResponseWriters
 sec6 ch43 Using Structs and Closures for Stateful Handlers
