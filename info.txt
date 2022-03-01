@@ -446,19 +446,26 @@ OAuth2
   - https://a-domain-you-oen
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
-
 
 sec6 ch39 Implementing an OAuth2 Token Storage Interface
+
+- Modify the OAuth2 client to:
+  - Store a token between requests
+  - Retrieve them at will using a key
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
+
+
 sec6 ch40 Wrapping a Client in Added Functionality and Function Composition
 sec6 ch41 Understanding GRPC Clients
 sec6 ch42 Working with Web Handlers, Requests, and ResponseWriters
