@@ -467,18 +467,39 @@ t = Middleware2(t)
 etc
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 sec6 ch41 Understanding GRPC Clients
+
+- Creating a greeter service:
+  - Takes a greeting and a name
+  - Return the sentence <greeting> <name>!
+
+go get github.com/golang/protobuf/proto
+go get github.com/golang/protobuf/protoc-gen-go
+go get google.golang.org/grpc
+
+protoc --go_out=plugins=grpc:greeter/ greeter/greeter.proto
+
+--------------------
+
+Summary
+
+- http.Client struct object
+- OAuth2 clients and long-term token storage
+- GRPC with an additional REST interface
+- Patterns for common operations, such as async requests to APIs
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 sec6 ch42 Working with Web Handlers, Requests, and ResponseWriters
 sec6 ch43 Using Structs and Closures for Stateful Handlers
 sec6 ch44 Validating Input for Go structs and User Inputs
