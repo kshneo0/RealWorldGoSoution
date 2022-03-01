@@ -529,18 +529,44 @@ curl "http://localhost:3333/get" -X GET
 curl "http://localhost:3333/get/default" -X GET
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 sec7 ch44 Validating Input for Go structs and User Inputs
+
+- Using closures to support easy mocking of validation functions
+- Allowing flexibility in the type of validation performed
+
+curl "http://localhost:3333/" -X POST -d '{}'
+curl "http://localhost:3333/" -X POST -d '{"name":"test"}'
+curl "http://localhost:3333/" -X POST -d '{"name":"test","age":5}' -v
+
+Validation
+- Pass in a closure to our controller struct
+- Advantage:
+  - Mock and replace the validation functions at run time
+  - Not bound to a single function signature
+  - Pass in things such as a databases connection to our validation functions
+
+Verror
+  - Typed error - Verror
+  - Holds validation error messages that can be displayed to users
+  - Doesn't handle multiple validation messages at once
+  - Modify the Verror type to allow for more state:
+    - Including a map
+
+--------------------
+
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 sec7 ch45 Rendering and Content Negotiation
 sec7 ch46 Implementing and Using Middleware
 sec7 ch47 Building a Reverse Proxy Application
