@@ -678,19 +678,49 @@ go tool cover -html=cover.out -o coverage.html
 github.com/golang/go/wiki/TableDrivenTests
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
 
 sec11 ch53 Using Third-Party Testing Tools
+
+- Testing Tools:
+  - Code coverage at a per-function level
+  - Assertions to reduce testing lines
+
+- gocov and goconvey packages to demonstrate this functionality
+
+
+go get github.com/axw/gocov/gocov
+go get github.com/smartystreets/goconvey
+
+gocov test | gocov report
+goconvey
+http://127.0.0.1:8080/
+
+
+Convey("Outer loop", t, func(){
+  a := 1
+  Convey("Inner loop", t, func(){
+    a := 2
+  })
+  Convey("Inner loop2", t, func(){
+    fmt.Println(a)
+  })
+})
+
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 sec11 ch54 Practical Fuzzing
 sec11 ch55 Behavior Testing Using Go
 sec11 ch56 Using channels and the select Statement
