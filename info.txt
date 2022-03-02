@@ -659,19 +659,37 @@ Mock Objects
 - interface_test.go file showcases examples of using mock objects
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 sec11 ch52 Using Table-Driven Tests to Improve Coverage
+
+Process to:
+  - Write a table-driven test
+  - Collect test coverage
+  - Improve it
+
+go get -u github.com/cweill/gotests/...
+
+gotests -all -w coverage.go
+
+go test -cover
+go test -coverprofile=cover.out
+go tool cover -html=cover.out -o coverage.html
+
+github.com/golang/go/wiki/TableDrivenTests
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
 sec11 ch53 Using Third-Party Testing Tools
 sec11 ch54 Practical Fuzzing
 sec11 ch55 Behavior Testing Using Go
