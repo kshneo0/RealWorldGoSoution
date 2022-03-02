@@ -636,19 +636,41 @@ About Mocking
 https://go.dev/play/p/oLF1XnRX3C
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 sec11 ch51 Using the mockgen Package
+
+- Exploring functionality of gomock
+- Trade-offs on where, when, and how to work with
+- Generating mock objects
+
+
+go get github.com/golang/mock/gomock
+go get github.com/golang/mock/mockgen
+go install github.com/golang/mock/mockgen@v1.6.0
+
+mockgen -destination internal/mocks.go -package internal github.com/RealWorldGoSolution/sec11/mockgen GetSetter
+
+
+Mock Objects
+
+- Allow tests to sprcify what arguments are expected
+- Number of times a func will be called and what to return
+- Allow to set additional artifacts
+- interface_test.go file showcases examples of using mock objects
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec11 ch52 Using Table-Driven Tests to Improve Coverage
 sec11 ch53 Using Third-Party Testing Tools
 sec11 ch54 Practical Fuzzing
