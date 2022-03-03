@@ -1,0 +1,5 @@
+panic: invalid range
+github.com/RealWorldGoSolution/sec11/fuzz.ConvertStringDollarsToPennies
+github.com/RealWorldGoSolution/sec11/fuzz.Fuzz
+go-fuzz-dep.Main
+main.main
