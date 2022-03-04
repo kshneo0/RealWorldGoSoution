@@ -733,20 +733,43 @@ go-fuzz-build
 go-fuzz -bin=./fuzz-fuzz.zip -workdir=output
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 sec11 ch55 Behavior Testing Using Go
+
+- godog package to write behavior tests
+
+cucumber.io
+github.com/DATA-DOG/godog
+
+godog handler.feature
+
+godog
+
+--------------------
+
+Summary
+
+- Testing and testing methodologies:
+  - Mocking
+  - Test Coverage
+  - Fuzzing
+  - Behavior testing
+  - Helpful testing tools
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec11 ch56 Using channels and the select Statement
 sec11 ch57 Performing async Operations withsyncWaitGroup
 sec11 ch58 Using Atomic Operations and mutex
