@@ -757,7 +757,24 @@ Summary
   - Helpful testing tools
 
 --------------------
+
+section 12 Parallelism and Concurrency
+
+- Using channels and the select statement
+- Performing async operations with sync.WaitGroup
+- Using atomic operations and mutex
+- Using the context pacakge
+- Executing state management for channels
+- Using the worker pool esign pattern
+- Using workers to create pipelines
+
 --------------------
+
+sec12 ch56 Using channels and the select Statement
+
+- Go channels and goroutines - first-class citizens for asynch communication
+- Channels become powerfi using select statements
+
 --------------------
 --------------------
 --------------------
@@ -770,24 +787,24 @@ Summary
 
 
 
-sec11 ch56 Using channels and the select Statement
-sec11 ch57 Performing async Operations withsyncWaitGroup
-sec11 ch58 Using Atomic Operations and mutex
-sec11 ch59 Using the context Package
-sec11 ch60 Executing State Management for Channels
-sec11 ch61 Using the Worker Pool Design Pattern
-sec11 ch62 Using Workers to Create Pipelines
-sec11 ch63 Using Service Discovery with Consul
-sec11 ch64 Implementing Basic Consensus Using Raft
-sec11 ch65 Using Containerization with Docker
-sec11 ch66 Orchestration and Deployment Strategies
-sec11 ch67 Monitoring Applications
-sec11 ch68 Collecting Metrics
-sec11 ch69 goflow for Dataflow Programming
-sec11 ch70 Reactive Programming with RxGo
-sec11 ch71 Using Kafka with Sarama
-sec11 ch72 Using async Producers with Kafka
-sec11 ch73 Connecting Kafka to goflow
+
+sec12 ch57 Performing async Operations withsyncWaitGroup
+sec12 ch58 Using Atomic Operations and mutex
+sec12 ch59 Using the context Package
+sec12 ch60 Executing State Management for Channels
+sec12 ch61 Using the Worker Pool Design Pattern
+sec12 ch62 Using Workers to Create Pipelines
+sec12 ch63 Using Service Discovery with Consul
+sec12 ch64 Implementing Basic Consensus Using Raft
+sec12 ch65 Using Containerization with Docker
+sec12 ch66 Orchestration and Deployment Strategies
+sec12 ch67 Monitoring Applications
+sec12 ch68 Collecting Metrics
+sec12 ch69 goflow for Dataflow Programming
+sec12 ch70 Reactive Programming with RxGo
+sec12 ch71 Using Kafka with Sarama
+sec12 ch72 Using async Producers with Kafka
+sec12 ch73 Connecting Kafka to goflow
 sec11 ch74 Defining a GraphQL Server in Go
 sec11 ch75 Go Programming on Lambda with Apex
 sec11 ch76 Apex Serverless Logging and Metrics
