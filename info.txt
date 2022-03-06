@@ -776,16 +776,18 @@ sec12 ch56 Using channels and the select Statement
 - Channels become powerfi using select statements
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 
+sec12 ch57 Performing async Operations withsyncWaitGroup
 
+- sync.WaitGroup - orchestrate non-dependent tasks in parallel
 
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
 
 
 sec12 ch57 Performing async Operations withsyncWaitGroup
