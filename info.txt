@@ -790,20 +790,25 @@ sec12 ch58 Using Atomic Operations and mutex
 - Once.Do method - something is only done by a Go application once
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
 
 sec12 ch59 Using the context Package
+
+- Basic of creating and managing contexts
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
+
 sec12 ch60 Executing State Management for Channels
 sec12 ch61 Using the Worker Pool Design Pattern
 sec12 ch62 Using Workers to Create Pipelines
