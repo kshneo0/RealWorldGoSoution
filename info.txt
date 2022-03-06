@@ -782,16 +782,27 @@ sec12 ch57 Performing async Operations withsyncWaitGroup
 - sync.WaitGroup - orchestrate non-dependent tasks in parallel
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
 
-
-sec12 ch57 Performing async Operations withsyncWaitGroup
 sec12 ch58 Using Atomic Operations and mutex
+
+- Go - sync and sync/atomic packages
+- Use of these pckages to modify a map with various goroutines
+- Once.Do method - something is only done by a Go application once
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
+
 sec12 ch59 Using the context Package
 sec12 ch60 Executing State Management for Channels
 sec12 ch61 Using the Worker Pool Design Pattern
