@@ -796,20 +796,28 @@ sec12 ch59 Using the context Package
 - Basic of creating and managing contexts
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
-
-
 
 sec12 ch60 Executing State Management for Channels
+
+- A channel of structs - passes a lot of state with a single message
+- Using of channels:
+  - To pass around complex request structs
+  - Return their results in complex response structs
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 sec12 ch61 Using the Worker Pool Design Pattern
 sec12 ch62 Using Workers to Create Pipelines
 sec12 ch63 Using Service Discovery with Consul
