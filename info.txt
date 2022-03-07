@@ -833,7 +833,32 @@ Summary
 - Channel state management
 
 --------------------
+
+sec 13 Distributed Systems
+
+- Using service discovery with consul
+- Implementing basic consensus using Raft
+- Using containerization with Docker
+- Orchestration and deployment strategies
+- Monitoring applications
+- Collecting metrics
+
 --------------------
+
+sec13 ch63 Using Service Discovery with Consul
+
+- Registering services with consul
+- Querying them from other services
+
+https://www.consul.io/intro/getting-started/install.html
+
+brew tap hashicorp/tap
+brew install hashicorp/tap/consul
+
+consul agent -dev -node=localhost
+
+https://www.consul.io/intro/getting-started/agent.html
+
 --------------------
 --------------------
 --------------------
@@ -843,21 +868,21 @@ Summary
 --------------------
 
 
-sec12 ch63 Using Service Discovery with Consul
-sec12 ch64 Implementing Basic Consensus Using Raft
-sec12 ch65 Using Containerization with Docker
-sec12 ch66 Orchestration and Deployment Strategies
-sec12 ch67 Monitoring Applications
-sec12 ch68 Collecting Metrics
-sec12 ch69 goflow for Dataflow Programming
-sec12 ch70 Reactive Programming with RxGo
-sec12 ch71 Using Kafka with Sarama
-sec12 ch72 Using async Producers with Kafka
-sec12 ch73 Connecting Kafka to goflow
-sec11 ch74 Defining a GraphQL Server in Go
-sec11 ch75 Go Programming on Lambda with Apex
-sec11 ch76 Apex Serverless Logging and Metrics
-sec11 ch77 Google App Engine with Go
+
+sec13 ch64 Implementing Basic Consensus Using Raft
+sec13 ch65 Using Containerization with Docker
+sec13 ch66 Orchestration and Deployment Strategies
+sec13 ch67 Monitoring Applications
+sec13 ch68 Collecting Metrics
+sec13 ch69 goflow for Dataflow Programming
+sec13 ch70 Reactive Programming with RxGo
+sec13 ch71 Using Kafka with Sarama
+sec13 ch72 Using async Producers with Kafka
+sec13 ch73 Connecting Kafka to goflow
+sec13 ch74 Defining a GraphQL Server in Go
+sec13 ch75 Go Programming on Lambda with Apex
+sec13 ch76 Apex Serverless Logging and Metrics
+sec13 ch77 Google App Engine with Go
 sec11 ch78 Working with Firebase Using zabawaba99/firego
 sec11 ch79 Using the pprof Tool
 sec11 ch80 Benchmarking and Finding Bottlenecks
