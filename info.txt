@@ -814,20 +814,35 @@ sec12 ch61 Using the Worker Pool Design Pattern
 golang.org/x/crypto/bcrypt
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
-
 
 sec12 ch62 Using Workers to Create Pipelines
+
+- Creating groups of worker pools - connecting them to form a pipeline
+- Link together two pools - use pattern for more complex operations
+
+--------------------
+
+Summary
+
+- Worker pools
+- Wait groups for async operations
+- Use of context package
+- Channels and async operations
+- Atomic values
+- Go context objects
+- Channel state management
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
 sec12 ch63 Using Service Discovery with Consul
 sec12 ch64 Implementing Basic Consensus Using Raft
 sec12 ch65 Using Containerization with Docker
