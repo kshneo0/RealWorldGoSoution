@@ -805,20 +805,28 @@ sec12 ch60 Executing State Management for Channels
   - Return their results in complex response structs
 
 --------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
---------------------
-
 
 sec12 ch61 Using the Worker Pool Design Pattern
+
+- Creating stateful workers
+- Coordinating multiple workers handling requests concurrently
+
+golang.org/x/crypto/bcrypt
+
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+--------------------
+
+
+
 sec12 ch62 Using Workers to Create Pipelines
 sec12 ch63 Using Service Discovery with Consul
 sec12 ch64 Implementing Basic Consensus Using Raft
